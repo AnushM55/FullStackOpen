@@ -36,11 +36,11 @@ sequenceDiagram
     server-->>browser: the JavaScript file (304 not modified)
     deactivate server
 
-    Note right of browser: The browser starts executing the<br/> JavaScript code that fetches the<br/> JSON file from the server
+    Note right of browser: The browser executes the<br/> JavaScript code that fetches the<br/> JSON file from server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json 
     activate server
-    server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ] (200 ok)
+    server-->>browser: json content (200 ok)
     deactivate server
 
     Note right of browser: The browser executes the callback<br/> function that renders the notes
