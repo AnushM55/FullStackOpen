@@ -1,4 +1,4 @@
-#Single Page Application 
+# Single Page Application 
 
 ```mermaid
 sequenceDiagram
