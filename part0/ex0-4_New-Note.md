@@ -1,4 +1,4 @@
-#New Note 
+# New Note 
 
 
 ```mermaid
